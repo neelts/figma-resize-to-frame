@@ -2,5 +2,10 @@
   "name": "Resize To Frame",
   "id": "753968999663099454",
   "api": "1.0.0",
-  "main": "code.js"
+  "main": "code.js",
+  "menu": [
+	{ "name": "Both", "command": "" },
+	{ "name": "Horizontal", "command": "h" },
+	{ "name": "Vertical", "command": "v" }
+  ]
 }
