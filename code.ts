@@ -25,25 +25,23 @@ if (selection.length > 0) {
 				const cs = cl.constraints;
         switch (figma.command) {
 					case CommandHorizontal: {
+						if (cs.horizontal == "MIN") cl.constraints = { horizontal: "STRETCH", vertical: cs.vertical };
 						cl.resize(container.width, cl.height);
 						cl.x = 0;
 						break;
 					}
 					case CommandVertical: {
+						if (cs.vertical == "MIN") cl.constraints = { horizontal: cs.horizontal, vertical: "STRETCH" };
 						cl.resize(cl.width, container.height);
 						cl.y = 0;
 						break;
 					}
 					default: {
+						if (cs.horizontal == "MIN" && cs.vertical == "MIN") cl.constraints = { horizontal: "STRETCH", vertical: "STRETCH" };
 						cl.resize(container.width, container.height);
 						cl.x = cl.y = 0;
 						break;
 					}
-				}
-        switch (figma.command) {
-					case CommandHorizontal: if (cs.horizontal == "MIN") cl.constraints = { horizontal: "STRETCH", vertical: cs.vertical }; break;
-					case CommandVertical: if (cs.vertical == "MIN") cl.constraints = { horizontal: cs.horizontal, vertical: "STRETCH" }; break;
-					default: if (cs.horizontal == "MIN" && cs.vertical == "MIN") cl.constraints = { horizontal: "STRETCH", vertical: "STRETCH" }; break;
 				}
       } else {
         unframed.push(node);
