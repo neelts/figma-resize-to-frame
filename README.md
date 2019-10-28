@@ -1,10 +1,14 @@
 #### Description
 
-Select items to resize them to their the parent's size.
+Select items to resize them to their parent's size (Horizontally, Vertically or Both).
 
 Default constraints (Left, Top) will be changed to (Left & Right, Top & Bottom).
 
+Sources: https://github.com/neelts/figma-resize-to-frame
 
+Subscribe to updates, discuss and report bugs in Telegram:
+
+https://t.me/nfigma
 
 #### Icon & Artwork:
 
