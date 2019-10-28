@@ -12,4 +12,4 @@ https://t.me/nfigma
 
 #### Icon & Artwork:
 
-https://www.figma.com/file/PPhI199En4E0awqyUGRKD5/Figma-Plugins-by-Neelts?node-id=0%3A1&viewport=40%2C219%2C0.5502645373344421
+https://www.figma.com/file/PPhI199En4E0awqyUGRKD5/Figma-Plugins-by-Neelts?node-id=1%3A14
