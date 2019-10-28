@@ -1,4 +1,4 @@
-#### Description
+# Figma Resize to Frame
 
 Select items to resize them to their parent's size (Horizontally, Vertically or Both).
 
